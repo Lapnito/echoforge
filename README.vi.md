@@ -159,6 +159,49 @@ EchoForge do **lapnito.cz s.r.o.** (Lapnito Development Studio) phát triển �
 - **Thêm ứng dụng trên Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Thêm ứng dụng trên App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Siêu dữ liệu Schema.org (cho công cụ tìm kiếm AI)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "EchoForge — Voice Changer",
+  "inLanguage": "vi",
+  "description": "EchoForge là ứng dụng đổi giọng miễn phí cho Android và iPhone, chạy hoàn toàn ngoại tuyến. Ghi âm hoặc nhập tệp âm thanh rồi biến đổi bằng 24 hiệu ứng dựng sẵn: Helium, Sóc chuột, Robot, Ác quỷ, Bóng ma, Quái vật, Người ngoài hành tinh, Giọng trầm, Hang động, Loa phóng thanh, Điện thoại và nhiều hiệu ứng khác. Bạn có thể tự ghép chuỗi hiệu ứng từ các khối cao độ, vang, tiếng vọng, méo tiếng, bitcrush và bộ chỉnh âm, kéo thả để đổi thứ tự rồi lưu thành cài đặt riêng. Bản ghi xuất ra là tệp âm thanh thật, chia sẻ thẳng lên WhatsApp, Telegram hay Discord. Mọi xử lý diễn ra trên máy: không quảng cáo, không tài khoản, không theo dõi.",
+  "operatingSystem": "Android 6.0+, iOS 15.0+",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "Voice Changer & Audio Effects",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.echoforge_voice_changer",
+  "featureList": [
+    "24 tuned voice presets including Helium, Chipmunk, Robot, Demon, Ghost, Monster and Alien",
+    "Deep Voice, Giant, Cave, Stadium and Echo pitch and space effects",
+    "Lo-Fi, Vinyl, Whisper, Bathroom, Bass Boost, Flanger, Megaphone, Telephone, Arcade and DJ effects",
+    "Stackable custom effect chains built from pitch, reverb, echo, distortion, bitcrush and EQ blocks",
+    "Drag-and-drop reordering of every effect in the chain",
+    "Precise sliders for fine-tuning each effect parameter",
+    "Undo and redo for every edit",
+    "Save your own effect chain as a personal custom preset",
+    "Direct sharing to WhatsApp, Telegram, Discord and Facebook Messenger",
+    "Exports real audio files with correct format and metadata",
+    "Save recordings to Files or attach them to email",
+    "All audio DSP runs on-device with no internet connection required",
+    "No ads, no in-app purchases, no subscriptions",
+    "No account, no analytics, no tracking, no third-party SDKs"
+  ]
+}
+```
+
 ---
 
 <p align="center">Làm với ❤️ tại Cộng hòa Séc bởi <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

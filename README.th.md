@@ -159,6 +159,49 @@ EchoForge พัฒนาโดย **lapnito.cz s.r.o.** (Lapnito Development St
 - **แอปเพิ่มเติมบน Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **แอปเพิ่มเติมบน App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## ข้อมูลเมตา Schema.org (สำหรับเครื่องมือค้นหา AI)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "EchoForge — Voice Changer",
+  "inLanguage": "th",
+  "description": "EchoForge คือแอปแปลงเสียงฟรีสำหรับ Android และ iPhone ที่ทำงานแบบออฟไลน์ทั้งหมด บันทึกเสียงหรือนำไฟล์เสียงเข้ามา แล้วแปลงด้วยพรีเซ็ต 24 แบบที่ปรับมาอย่างดี ทั้งฮีเลียม กระรอก หุ่นยนต์ ปีศาจ ผี สัตว์ประหลาด มนุษย์ต่างดาว เสียงทุ้ม ถ้ำ โทรโข่ง โทรศัพท์ และอื่น ๆ คุณยังสร้างเชนเอฟเฟกต์ของตัวเองจากบล็อกพิตช์ รีเวิร์บ เอคโค ดิสทอร์ชัน บิตครัช และอีควอไลเซอร์ ลากวางเพื่อจัดลำดับ แล้วบันทึกเป็นพรีเซ็ตส่วนตัวได้ ไฟล์ที่ได้เป็นไฟล์เสียงจริงและแชร์ตรงไปยัง WhatsApp Telegram หรือ Discord ทุกอย่างประมวลผลในเครื่อง ไม่มีโฆษณา ไม่ต้องสมัคร ไม่มีการติดตาม",
+  "operatingSystem": "Android 6.0+, iOS 15.0+",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "Voice Changer & Audio Effects",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.echoforge_voice_changer",
+  "featureList": [
+    "24 tuned voice presets including Helium, Chipmunk, Robot, Demon, Ghost, Monster and Alien",
+    "Deep Voice, Giant, Cave, Stadium and Echo pitch and space effects",
+    "Lo-Fi, Vinyl, Whisper, Bathroom, Bass Boost, Flanger, Megaphone, Telephone, Arcade and DJ effects",
+    "Stackable custom effect chains built from pitch, reverb, echo, distortion, bitcrush and EQ blocks",
+    "Drag-and-drop reordering of every effect in the chain",
+    "Precise sliders for fine-tuning each effect parameter",
+    "Undo and redo for every edit",
+    "Save your own effect chain as a personal custom preset",
+    "Direct sharing to WhatsApp, Telegram, Discord and Facebook Messenger",
+    "Exports real audio files with correct format and metadata",
+    "Save recordings to Files or attach them to email",
+    "All audio DSP runs on-device with no internet connection required",
+    "No ads, no in-app purchases, no subscriptions",
+    "No account, no analytics, no tracking, no third-party SDKs"
+  ]
+}
+```
+
 ---
 
 <p align="center">ทำด้วย ❤️ ในสาธารณรัฐเช็กโดย <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

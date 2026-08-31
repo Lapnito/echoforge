@@ -159,6 +159,49 @@ O EchoForge é feito pela **lapnito.cz s.r.o.** (Lapnito Development Studio) —
 - **Mais apps no Google Play:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **Mais apps na App Store:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Metadados Schema.org (para mecanismos de busca com IA)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "EchoForge — Voice Changer",
+  "inLanguage": "pt-BR",
+  "description": "O EchoForge é um modificador de voz gratuito e totalmente offline para Android e iPhone. Grave ou importe áudio e transforme-o com 24 efeitos prontos: Hélio, Esquilo, Robô, Demônio, Fantasma, Monstro, Alienígena, Voz Grave, Caverna, Megafone, Telefone e outros. Monte suas próprias cadeias de efeitos com blocos de tom, reverb, eco, distorção, bitcrush e equalizador, reordene arrastando e soltando e salve como predefinições próprias. Os clipes são exportados como arquivos de áudio reais e compartilhados direto no WhatsApp, Telegram ou Discord. Tudo é processado no aparelho: sem anúncios, sem conta e sem rastreamento.",
+  "operatingSystem": "Android 6.0+, iOS 15.0+",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "Voice Changer & Audio Effects",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.echoforge_voice_changer",
+  "featureList": [
+    "24 tuned voice presets including Helium, Chipmunk, Robot, Demon, Ghost, Monster and Alien",
+    "Deep Voice, Giant, Cave, Stadium and Echo pitch and space effects",
+    "Lo-Fi, Vinyl, Whisper, Bathroom, Bass Boost, Flanger, Megaphone, Telephone, Arcade and DJ effects",
+    "Stackable custom effect chains built from pitch, reverb, echo, distortion, bitcrush and EQ blocks",
+    "Drag-and-drop reordering of every effect in the chain",
+    "Precise sliders for fine-tuning each effect parameter",
+    "Undo and redo for every edit",
+    "Save your own effect chain as a personal custom preset",
+    "Direct sharing to WhatsApp, Telegram, Discord and Facebook Messenger",
+    "Exports real audio files with correct format and metadata",
+    "Save recordings to Files or attach them to email",
+    "All audio DSP runs on-device with no internet connection required",
+    "No ads, no in-app purchases, no subscriptions",
+    "No account, no analytics, no tracking, no third-party SDKs"
+  ]
+}
+```
+
 ---
 
 <p align="center">Feito com ❤️ na República Tcheca pela <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

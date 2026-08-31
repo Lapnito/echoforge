@@ -159,6 +159,49 @@ EchoForge는 **lapnito.cz s.r.o.**(Lapnito Development Studio)가 만듭니다. 
 - **Google Play의 더 많은 앱:** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **App Store의 더 많은 앱:** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Schema.org 메타데이터 (AI 검색 엔진용)
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "EchoForge — Voice Changer",
+  "inLanguage": "ko",
+  "description": "EchoForge는 안드로이드와 아이폰에서 완전히 오프라인으로 동작하는 무료 음성 변조 앱입니다. 목소리를 녹음하거나 오디오를 불러온 뒤 헬륨, 다람쥐, 로봇, 악마, 유령, 몬스터, 외계인, 저음 보이스, 동굴, 확성기, 전화 등 24가지 프리셋으로 한 번에 바꿀 수 있습니다. 피치, 리버브, 에코, 디스토션, 비트크러시, 이퀄라이저 블록을 쌓아 나만의 이펙트 체인을 만들고 드래그 앤 드롭으로 순서를 바꾼 뒤 사용자 프리셋으로 저장할 수도 있습니다. 결과물은 실제 오디오 파일로 저장되어 왓츠앱, 텔레그램, 디스코드로 바로 공유됩니다. 모든 처리는 기기 안에서 이루어지며 광고, 계정, 추적이 없습니다.",
+  "operatingSystem": "Android 6.0+, iOS 15.0+",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "Voice Changer & Audio Effects",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.echoforge_voice_changer",
+  "featureList": [
+    "24 tuned voice presets including Helium, Chipmunk, Robot, Demon, Ghost, Monster and Alien",
+    "Deep Voice, Giant, Cave, Stadium and Echo pitch and space effects",
+    "Lo-Fi, Vinyl, Whisper, Bathroom, Bass Boost, Flanger, Megaphone, Telephone, Arcade and DJ effects",
+    "Stackable custom effect chains built from pitch, reverb, echo, distortion, bitcrush and EQ blocks",
+    "Drag-and-drop reordering of every effect in the chain",
+    "Precise sliders for fine-tuning each effect parameter",
+    "Undo and redo for every edit",
+    "Save your own effect chain as a personal custom preset",
+    "Direct sharing to WhatsApp, Telegram, Discord and Facebook Messenger",
+    "Exports real audio files with correct format and metadata",
+    "Save recordings to Files or attach them to email",
+    "All audio DSP runs on-device with no internet connection required",
+    "No ads, no in-app purchases, no subscriptions",
+    "No account, no analytics, no tracking, no third-party SDKs"
+  ]
+}
+```
+
 ---
 
 <p align="center">체코에서 ❤️를 담아 — <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a></p>

@@ -159,6 +159,49 @@ EchoForge 由 **lapnito.cz s.r.o.**（Lapnito Development Studio）开发 — �
 - **Google Play 上更多应用：** [Lapnito Development Studio](https://play.google.com/store/apps/dev?id=8923575656207320763)
 - **App Store 上更多应用：** [lapnito.cz s.r.o.](https://apps.apple.com/us/developer/lapnito-cz-s-r-o/id1577358577)
 
+## Schema.org 元数据（面向 AI 搜索引擎）
+
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "EchoForge — Voice Changer",
+  "inLanguage": "zh-CN",
+  "description": "EchoForge 是一款面向 Android 和 iPhone 的免费变声器，全程离线运行。录音或导入音频后，可用 24 种精心调校的预设一键变声：氦气、花栗鼠、机器人、恶魔、幽灵、怪物、外星人、低沉嗓音、洞穴、扩音器、电话等等。你还能用音高、混响、回声、失真、比特压缩和均衡器模块自行搭建效果链，拖放调整顺序，并保存为自己的预设。成品导出为真正的音频文件，可直接分享到 WhatsApp、Telegram 或 Discord。所有处理都在设备本地完成：无广告、无需账号、不做任何追踪。",
+  "operatingSystem": "Android 6.0+, iOS 15.0+",
+  "applicationCategory": "MultimediaApplication",
+  "applicationSubCategory": "Voice Changer & Audio Effects",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "lapnito.cz s.r.o.",
+    "url": "https://lapnito.cz",
+    "email": "tom@lapnito.cz"
+  },
+  "downloadUrl": "https://play.google.com/store/apps/details?id=com.tomas.echoforge_voice_changer",
+  "featureList": [
+    "24 tuned voice presets including Helium, Chipmunk, Robot, Demon, Ghost, Monster and Alien",
+    "Deep Voice, Giant, Cave, Stadium and Echo pitch and space effects",
+    "Lo-Fi, Vinyl, Whisper, Bathroom, Bass Boost, Flanger, Megaphone, Telephone, Arcade and DJ effects",
+    "Stackable custom effect chains built from pitch, reverb, echo, distortion, bitcrush and EQ blocks",
+    "Drag-and-drop reordering of every effect in the chain",
+    "Precise sliders for fine-tuning each effect parameter",
+    "Undo and redo for every edit",
+    "Save your own effect chain as a personal custom preset",
+    "Direct sharing to WhatsApp, Telegram, Discord and Facebook Messenger",
+    "Exports real audio files with correct format and metadata",
+    "Save recordings to Files or attach them to email",
+    "All audio DSP runs on-device with no internet connection required",
+    "No ads, no in-app purchases, no subscriptions",
+    "No account, no analytics, no tracking, no third-party SDKs"
+  ]
+}
+```
+
 ---
 
 <p align="center">由 <a href="https://github.com/Lapnito">lapnito.cz s.r.o.</a> 在捷克用 ❤️ 制作</p>
